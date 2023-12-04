@@ -1,0 +1,245 @@
+.tk{
+  margin-right: 200px
+}
+.wrapper{
+	height: auto;
+	width: 100%;
+	margin:0 auto;
+}
+i.fa.fa-plus.fa-style {
+    font-size: 20px;
+    color: #000;
+}
+i.fa.fa-minus.fa-style {
+    font-size: 20px;
+    color: #000;
+}
+i.fa.fa-plus.fa-style:hover {
+    color: brown;
+}
+i.fa.fa-minus.fa-style:hover {
+    color: brown;
+}
+.wrapper_chitiet{
+    margin-bottom: 300px;
+    height: auto;
+    width: 90%;
+}
+.hinhanh_sanpham{
+    float: left;
+    width: 30%;
+}
+.chitiet_sanpham{
+    float: left;
+    width: 49%;
+    margin:0 10px;
+}
+input.themgiohang {
+    border: none;
+    background: brown;
+    color: #fff;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.menu{
+background:#57e6ff;
+border:1px solid #79ffff;
+height: 60px;
+
+}
+ul.list_menu {
+padding: 10;
+
+list-style: none;
+margin: 0 auto;
+    line-height: 35px;
+
+}
+ul.list_menu li:hover {
+background:#f3d98e;
+border-radius: 30px/30px;
+}
+ul.list_menu li a {
+    color: white;
+text-decoration: none;}
+
+ul.list_menu li {
+    float: left;
+    text-align: center;
+    margin: 6px;
+    padding: 5px;
+}
+ul.baiviet {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul.baiviet li {
+   border:1px solid #ddd;
+   padding: 10px;
+}
+#main{
+	padding-top:5px;
+	height: auto;
+	width: 100%;
+}
+.sidebar{
+	border:3px solid #dea969;
+	height: auto;
+	width: 17%;
+	margin-top:5px;
+	margin-left:3px;
+	float: left;
+}
+ul.list_sidebar {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border-top: 3px solid #fc9797;  
+    list-style: none;
+    line-height: 27px;
+
+
+}
+ul.list_sidebar li:hover {
+    background: #f1a7ad;
+}
+ul.list_sidebar li a {
+    text-decoration: none;
+    text-align: left;
+    color: #000000 ;
+    display: block;
+}
+ul.list_sidebar li {
+    margin: 7px;
+    padding: 5px;
+   
+}
+.maincontent{
+	
+	height: auto;
+	width: 79%;
+	margin-top:5px;
+	margin-left:5px;
+	float: right;
+}
+ul.product_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+ul.product_list li img {
+    height: 190px;
+
+}
+ul.product_list li {
+
+    width: 22%;
+    border: 1px solid #ddd;
+    margin: 5px;
+    float: left;
+   position: relative;
+    height: 320px;
+}
+ul.product_list li a {
+    text-decoration: none;
+}
+ul.product_list li img {
+    width: 100%;
+}
+p.price_product {
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    bottom:6px;
+    position: absolute;
+    left: 55px;
+}
+p.title_product {
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer{
+    font-size: 20px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+	border-top:1px solid ;
+	height: 200px;
+    width: auto;
+	background:#57e6ff;
+}
+.clear{
+	clear: both;
+  background-color: #D2A3A9; 
+}
+
+/* Tabs */
+.tabs {
+  width: 100%;
+  background-color:#D2A3A9 ;
+  border-radius: 5px 5px 5px 5px;
+}
+ul#tabs-nav {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  overflow: auto;
+}
+ul#tabs-nav li {
+  float: left;
+  font-weight: bold;
+  margin-right: 2px;
+  padding: 8px 10px;
+  border-radius: 5px 5px 5px 5px;
+  /*border: 1px solid #d5d5de;
+  border-bottom: none;*/
+  cursor: pointer;
+}
+ul#tabs-nav li:hover
+ul#tabs-nav li.active {
+  background-color: #2A3A9D;
+}
+#tabs-nav li a {
+  text-decoratiFmeon: none;
+  color: #FFF;
+}
+.tab-content {
+  padding: 10px;
+  border: 5px solid #D2A3A9;
+  background-color: white;
+}   
+input[type="text"] {
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline:none;
+    padding: 12px 10px;
+    height: 30px;
+    transition:0.6s ease-in-out;
+    }
+    input[type="text"]:focus{
+    width:500px;
+    background-color:white;
+}
+.a1{
+ text-align: right;
+    margin-right: 60px;
+}
+input[type="submit"]{
+    border: #717171 solid 1px;
+    background-color: white;
+    font-style: italic;
+    height: 30px ;
+    border-radius: 10px/30px;
+}
+.logo{
+  resize:both;
+  float: left;
+
+}
